@@ -2,12 +2,13 @@ require 'selenium-webdriver'
 require 'capybara'
 require 'capybara/dsl'
 require 'capybara/cucumber'
-# require 'capybara/rspec'
+require 'capybara/rspec'
 require 'rspec'
 require 'faker'
 require 'capybara-screenshot/cucumber'
 require 'wannabe_bool'
-require 'rspec/expectations'
+require 'byebug'
+include RSpec::Matchers
 
 #############################################
 ################ Capybara ###################

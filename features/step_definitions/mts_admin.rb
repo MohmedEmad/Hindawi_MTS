@@ -28,11 +28,11 @@ Then /^Open Search Manuscript page and verify on the title$/ do
   page.find(:xpath, '//a[text()="Search Manuscripts"]').click
   sleep 1
   page_address = find(:xpath, '//h1[contains(text(),"Search Manuscripts")]').text
-  if page_address == "Search Manuscripts"
-    puts "Search Manuscripts page opened"
-  else
-    puts "Wrong Page address"
-  end
+  # if page_address == "Search Manuscripts"
+  #   puts "Search Manuscripts page opened"
+  # else
+  #   puts "Wrong Page address"
+  # end
 end
 
 ##################################################

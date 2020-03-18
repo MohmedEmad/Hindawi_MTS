@@ -1,0 +1,12 @@
+# Scenario Outline: Verifying that submitting 3 Manuscripts or more at one journal will generate mail to the editorial staff, Examples (#4)
+cucumber features/mts_site/submission.feature:197 
+
+# Scenario: Verify that system provides information for each question.
+cucumber features/mts_site/submission.feature:217 
+
+# Scenario Outline: Verify that the system accepts a manuscript with format PDF and Word, Examples (#2)
+cucumber features/mts_site/submission.feature:218 
+
+# Scenario Outline: Verify that the system accepts a manuscript with format PDF and Word, Examples (#3)
+asl ana 3mlt run we dol fejom errors
+arf3 keda we anta tazabthom
